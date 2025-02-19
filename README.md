@@ -1,6 +1,6 @@
 ## Chat App </br>
  <div align='center'>
-    <a href="https://weather-arghyahub.vercel.app"> 🌐 Live 🌐</a> </div> </br>
+    <a href="https://mai-chat-app.vercel.app"> 🌐 Live 🌐</a> </div> </br>
 
 ## Overview </br>
 The purpose of this document is to outline the full-stack development task for implementing a
@@ -21,7 +21,30 @@ development (React/Next.js).
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
+<h2>🚀 Setup And Run</h2>
+<div align="center">
+    🔗 <a href="https://mai-chat-app.vercel.app"><b>Live Demo</b></a>
+</div>
 
+<h3>🛠 Login Credentials</h3>
+<p>You can use the existing test accounts or create a new one by registering.</p>
+
+<ul>
+    <li><b>User 1</b>
+        <ul>
+            <li>✉️ <b>Email:</b> <code>rishi1@gmail.com</code></li>
+            <li>🔑 <b>Password:</b> <code>123456</code></li>
+        </ul>
+    </li>
+    <li><b>User 2</b>
+        <ul>
+            <li>✉️ <b>Email:</b> <code>rishi2@gmail.com</code></li>
+            <li>🔑 <b>Password:</b> <code>123456</code></li>
+        </ul>
+    </li>
+</ul>
+
+<hr>
 
 # Setup And Testing client
 ```
