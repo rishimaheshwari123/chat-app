@@ -2,6 +2,12 @@
  <div align='center'>
     <a href="https://weather-arghyahub.vercel.app"> 🌐 Live 🌐</a> </div> </br>
 
+## Overview </br>
+The purpose of this document is to outline the full-stack development task for implementing a
+WebSocket-based real-time chat application. This documentation is intended for the hiring
+department to evaluate candidates&#39; proficiency in Node.js, WebSockets, and frontend
+development (React/Next.js).
+</br>
 ## Tech Stack Used
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
