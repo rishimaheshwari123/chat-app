@@ -5,9 +5,7 @@ const { setIO } = require('./socketIO/socket'); // Import the utility
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
 const dotenv = require('dotenv');
-const fileUpload = require('express-fileupload');
 const connectDB = require('./config/db');
-const { cloudinaryConnect } = require('./config/cloudinary');
 const userRoute = require('./routes/userRoute');
 const chatRoutes = require("./routes/chat");
 dotenv.config();
@@ -36,13 +34,9 @@ app.use(cors({
   credentials: true,
 }));
 
-app.use(fileUpload({
-  useTempFiles: true,
-  tempFileDir: "/tmp/",
-}));
 
-// Connect to Cloudinary
-cloudinaryConnect();
+
+
 
 // API routes
 app.use('/api/v1/user', userRoute);
