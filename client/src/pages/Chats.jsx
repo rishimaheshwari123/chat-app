@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import axios from "axios";
 import { useSelector } from "react-redux";
 
-const socket = io("http://localhost:8080");
+const socket = io("https://chat-app-8x1z.onrender.com");
 
 const Chat = ({ receiverId, onClose }) => {
   const [message, setMessage] = useState("");

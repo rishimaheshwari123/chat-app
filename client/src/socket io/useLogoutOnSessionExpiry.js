@@ -1,7 +1,7 @@
 import io from 'socket.io-client';
 import { useEffect } from 'react';
 
-const socket = io("http://localhost:8080");
+const socket = io("https://chat-app-8x1z.onrender.com");
 
 const useLogoutOnSessionExpiry = () => {
   useEffect(() => {

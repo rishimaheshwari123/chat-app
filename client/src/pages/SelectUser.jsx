@@ -25,7 +25,7 @@ const ConversationList = ({ onConversationSelect, onUserSelect }) => {
 
   useEffect(() => {
     // Connect to Socket.IO server
-    const newSocket = io("http://localhost:8080", {
+    const newSocket = io("https://chat-app-8x1z.onrender.com", {
       query: { token }, // Pass the auth token if required
     });
     setSocket(newSocket);

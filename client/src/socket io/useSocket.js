@@ -12,7 +12,7 @@ const useSocket = () => {
   const { sessionID } = useSelector(state => state.profile);
 
   useEffect(() => {
-    const socket = io("http://localhost:8080");
+    const socket = io("https://chat-app-8x1z.onrender.com");
 
     socket.on('logout', ({ sessionId, message }) => {
       if (sessionID === sessionId) {
